@@ -1,0 +1,223 @@
+#banner {
+    /* background: url("https://i.postimg.cc/5NwM1My9/banner.png"); */
+    /*! link to the banner on an external server */
+    background: url("images/screenshot.png");
+    background-color: #282a36;
+    width: 100%;
+    min-height: 289px;
+}
+
+body {
+    background: linear-gradient(to right bottom, #282a36, purple);
+    width: auto;
+    height: auto;
+}
+
+.footer {
+    width: 100vw;
+    display: block;
+    text-align: center;
+    font-family: Monaco;
+    overflow: hidden;
+    font-size: 5px;
+    padding: 70px 0;
+    box-sizing: border-box;
+    /* background-color: #282a36; */
+
+}
+
+.inner-footer {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    color: white;
+    font-family: Helvetica;
+}
+
+li {
+    margin: 10px 0px;
+    /* border-style: dotted;
+    border-color: springgreen;
+    border-spacing: 20px;
+    border-radius: 15px; */
+    /* font-weight: bold; */
+}
+
+a {
+    color: white;
+    font-family: Monaco;
+    font-weight: bold;
+}
+
+h {
+    font-size: 24px;
+    /*? background: #282a36;  Should it have different background than paragraphs? Gradient? */
+    margin-top: 50px;
+    font-weight: bold;
+    font-family: Monaco;
+    text-shadow: rgb(2, 197, 2);
+    display: block;
+    /* text-align: center; */
+    color: springgreen;
+    /* border-top-style: dotted; */
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    /*? swap it for "wheat" colour? */
+    font-family: Helvetica;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-color: white;
+    text-align: left;
+    text-indent: 50px;
+}
+
+.menu {
+    display: flex;
+    font-family: Helvetica;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    /* display: inline; */
+    /* background-color: black; */
+    text-transform: uppercase;
+    text-align: center;
+    /* background: green; */
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* .menu a:hover {
+    background-color: white; */
+
+#blog-title {
+    font-size: 50px;
+    color: white;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0 0 15px rgba(33, 33, 33, .2);
+}
+
+.box1 {
+    background-color: rgb(2, 197, 2);
+    width: 400px;
+    border-top: dimgray;
+    box-shadow: 0 0 15px rgba(33, 33, 33, .2);
+}
+
+.box2 {
+    background-color: purple;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(33, 33, 33, .2);
+}
+
+.box3 {
+    background-color: rgb(2, 197, 2);
+    width: 400px;
+    box-shadow: 0 0 15px rgba(33, 33, 33, .2);
+}
+
+.box4 {
+    background-color: purple;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(33, 33, 33, .2);
+}
+
+.box1:hover {
+    box-shadow: 0 0 15px rgba(33, 33, 33, .2);
+    background-color: white;
+}
+
+.box2:hover {
+    box-shadow: 0 0 15px rgba(33, 33, 33, .2);
+    background-color: white;
+}
+
+.box3:hover {
+    box-shadow: 0 0 15px rgba(33, 33, 33, .2);
+    background-color: white;
+}
+
+.box4:hover {
+    box-shadow: 0 0 15px rgba(33, 33, 33, .2);
+    background-color: white;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: Monaco;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.post-date {
+    /* color:rgb(241, 241, 19); */
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: small;
+    color: rgb(0, 255, 127, 0.5);
+    font-family: Monaco;
+    border-bottom-style: dotted;
+    border-top: 2px;
+    border-color: rgb(0, 255, 127, 0.5);
+}
+
+a:hover {
+    color: springgreen;
+}
+
+/* TODO: Ask how to make two links highlighting [hove] one colour and two other with different colour */
+
+.dotted-border {
+    border-style: dotted;
+    border-color: springgreen;
+    border-spacing: 20px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+/* .footer {
+    /* display: flex;
+    flex-direction: column; */
+    /* text-align: center;
+    font-family: Monaco;
+    font-size: 10px;
+    text-transform: lowercase; */
+    /* position:static ; */
+    /* position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; */
+
+    /* height: 50px;   Height of the footer */
+    /* background: #282a36; */ 
+
+#small-text {
+    font-size: small;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#text-center {
+    text-align: center;
+}
+
+.shadow-text {
+    text-shadow: 2px 2px #ff0000;
+}
+
+.logo-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
